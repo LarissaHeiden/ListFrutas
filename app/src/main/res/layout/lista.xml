@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lista">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/codigo"
+            android:layout_width="70dp"
+            android:layout_height="99dp"
+            android:text="Codigo"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <TextView
+            android:id="@+id/nomefruta"
+            android:layout_width="84dp"
+            android:layout_height="99dp"
+            android:text="nome fruta"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <TextView
+            android:id="@+id/preco"
+            android:layout_width="61dp"
+            android:layout_height="40dp"
+            android:text="preco"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <TextView
+            android:id="@+id/precovenda"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="preço venda"
+            tools:layout_editor_absoluteX="217dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="167dp"
+            android:layout_height="99dp"
+            tools:layout_editor_absoluteX="301dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
